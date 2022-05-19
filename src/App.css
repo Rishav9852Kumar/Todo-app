@@ -17,9 +17,9 @@ h1 {
 }
 form {
   position: fixed;
-  bottom: 500px;
-  right: 30%;
-  left: 30%;
+  bottom: 200px;
+  right: 20%;
+  left: 20%;
   border-radius: 8px;
   border: 2px solid rgb(66, 66, 180);
   color: #000;

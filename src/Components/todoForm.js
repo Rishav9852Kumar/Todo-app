@@ -1,4 +1,4 @@
-import React ,{useStates,useContext} from "react";
+import React ,{useState,useContext} from "react";
 import{
    FormGroup,
    Input,
@@ -14,7 +14,7 @@ import {ADD_TODO} from "../context/action.types"
 
 const TodoForm = () =>{
     //Defining a State where we staore the values//
-    const [todoString,setTodoString] = useStates("");
+    const [todoString,setTodoString] = useState("");
     const {dispatch} = useContext(TodoContext);
 
 
