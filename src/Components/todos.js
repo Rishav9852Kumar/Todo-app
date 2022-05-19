@@ -14,7 +14,7 @@ const Todos=()=>{
                {todos.map(todo=>(
                    <ListGroupItem key={todo.id}>
                      {todo.todoString}  
-                     <span className="float-right"
+                     <span className="float-end"
                      onClick={()=>{
                       dispatch({
                           type:REMOVE_TODO,

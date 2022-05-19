@@ -36,7 +36,7 @@ const TodoForm = () =>{
     }
     return(
         <Form onSubmit ={handleSubmit}>
-            <FormGroup>
+           
                 <InputGroup>
                 <Input 
                 type="text"
@@ -51,7 +51,7 @@ const TodoForm = () =>{
                     <Button color="warning">Add</Button>
                </CardGroup>
                 </InputGroup>
-            </FormGroup>
+            
 
         </Form>
 

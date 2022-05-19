@@ -2,17 +2,19 @@ import React,{useReducer} from "react";
 import {Container,Button} from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import logo from "./media/poster competition.jpg";
 
 import {TodoContext} from "./context/TodoContext";
 import todoReducer from "./context/reducer";
-import TodoForm from "./Components/todoForm";
+import TodoForm from "./Components/TodoForm";
 import Todos from "./Components/todos";
  const App = () =>{
     const [todos ,dispatch ]=useReducer(todoReducer,[]);
     return(
       <TodoContext.Provider value={{todos,dispatch}}>
        <Container fluid>
-         <h1>To do app with Contxt API</h1>
+        <div ><img className="rounded-circle hover-overlay img-thumbnail"src={logo} alt="logo"/></div> 
+         <h1>Todo app with Contxt API</h1>
          <Todos/>
           <TodoForm/>
          
