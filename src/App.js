@@ -2,7 +2,7 @@ import React,{useReducer} from "react";
 import {Container,Button} from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import logo from "./media/poster competition.jpg";
+import logo from "./media/postercompetition.jpg";
 
 import {TodoContext} from "./context/TodoContext";
 import todoReducer from "./context/reducer";
