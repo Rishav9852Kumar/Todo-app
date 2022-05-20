@@ -1,5 +1,5 @@
 import React,{useReducer} from "react";
-import {Container,Button} from "reactstrap";
+import {Container} from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import logo from "./media/postercompetition.jpg";
